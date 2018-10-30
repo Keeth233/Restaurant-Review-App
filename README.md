@@ -18,7 +18,7 @@ Bootstrap and other CSS frameworks should not be used; ```all responsiveness sho
 2. Using ```cmd/terminal``` from inside the folder directory, launch a local client server using Python from your terminal: 
 _with version 2.x.x of python installed, use_ ```Python 2: python -m SimpleHTTPServer 8000``` and
 _with version 3.x.x of python installed, use_ ```Python 3: python3 -m http.server 8000```.
-You can discover the installed version of Python you have by running ```python -V``` at the command line.
+* You can discover the installed version of Python you have by running ```python -V``` at the command line.
 * _You can download python from https://www.python.org/downloads/ if not installed on your system._
 3. After Launching local server, Visit the site in your browser at ```http://localhost:8000```
 * Port 8000 may be changed to your choice
