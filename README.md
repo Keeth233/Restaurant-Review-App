@@ -21,4 +21,4 @@ _with version 3.x.x of python installed, use_ ```Python 3: python3 -m http.serve
 You can discover the installed version of Python you have by running ```python -V``` at the command line.
 * _You can download python from https://www.python.org/downloads/ if not installed on your system._
 3. After Launching local server, Visit the site in your browser at ```http://localhost:8000```
-_Port 8000 may be changed to your choice
+* Port 8000 may be changed to your choice
