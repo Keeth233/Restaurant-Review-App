@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -18,15 +18,15 @@
         </nav>
     </header>
 
-    <main id="maincontent" tabindex="1">
+    <main id="maincontent" role="main">
         <section id="map-container">
-            <div id="map"></div>
+            <div id="map" role="application" aria-describedby="map-help"></div>
         </section>
 
         <section>
             <div class="filter-options">
                 <h2>Filter Results</h2>
-                <select aria-role="tablist" tabindex="2" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                <select aria-role="tablist" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
 
